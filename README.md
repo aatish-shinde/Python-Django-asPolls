@@ -8,10 +8,10 @@ python -c "import django; print(django.get_version())"
 python3 -c "import sys; sys.path = sys.path[1:]; import django; print(django.__path__)"
 
 // run these commands if there is an error in mysql installation
-sudo su
-export CFLAGS=-Qunused-arguments
-export CPPFLAGS=-Qunused-arguments
-pip install MySQL-python
+- sudo su
+- export CFLAGS=-Qunused-arguments
+- export CPPFLAGS=-Qunused-arguments
+- pip install MySQL-python
 
 // run this command if "libmysqlclient.18.dylib" is not found or if there is an error
 ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib	
